@@ -33,10 +33,9 @@ export function Philosophy() {
           >
             <img
               src="/minimalist-japanese-interior-design-with-natural-w.jpg"
-              alt="Минималистичный интерьер с натуральным деревом"
+              alt="Учебный процесс в колледже"
               className="absolute inset-0 w-full h-full object-cover"
             />
-            {/* Overlay accent */}
             <div className="absolute bottom-0 left-0 w-24 h-24 bg-terracotta/80" />
           </div>
 
@@ -47,7 +46,7 @@ export function Philosophy() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
               }`}
             >
-              Наша философия
+              О колледже
             </p>
 
             <h2
@@ -55,10 +54,10 @@ export function Philosophy() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >
-              Искусство
-              <span className="italic"> осознанной</span>
+              Образование,
+              <span className="italic"> формирующее</span>
               <br />
-              жизни
+              будущее
             </h2>
 
             <div
@@ -67,13 +66,12 @@ export function Philosophy() {
               }`}
             >
               <p>
-                Мы верим, что каждое пространство таит в себе потенциал для преображения. Не через добавление,
-                а через бережное вычитание — открывая то, что всегда было предначертано.
+                Мы верим, что качественное образование — это не просто передача знаний,
+                а формирование личности. Каждый студент уходит от нас с профессией, уверенностью и желанием развиваться.
               </p>
               <p>
-                Наш подход вдохновлён японской концепцией <em className="text-foreground">ма</em> — глубокой
-                красотой пустоты — и скандинавским пониманием
-                <em className="text-foreground"> хюгге</em>, этого ощущения уютного умиротворения.
+                Наш подход сочетает <em className="text-foreground">глубокую теорию</em> с интенсивной практикой —
+                стажировки, мастер-классы от работодателей и реальные проекты уже с первого курса.
               </p>
             </div>
 
@@ -84,16 +82,16 @@ export function Philosophy() {
               }`}
             >
               <div>
+                <p className="font-serif text-3xl md:text-4xl text-sage">25+</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Лет работы</p>
+              </div>
+              <div>
+                <p className="font-serif text-3xl md:text-4xl text-sage">1500+</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Выпускников</p>
+              </div>
+              <div>
                 <p className="font-serif text-3xl md:text-4xl text-sage">12</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Лет опыта</p>
-              </div>
-              <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">140+</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Проектов</p>
-              </div>
-              <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">8</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Наград</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Специальностей</p>
               </div>
             </div>
           </div>
